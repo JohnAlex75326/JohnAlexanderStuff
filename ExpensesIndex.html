@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Dashboard JS</title>
+    <!-- Add custom CSS styles -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .dashboard-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 20px;
+        }
+        .graph-container {
+            width: 100%;
+            max-width: 1500px;
+            margin-bottom: 20px;
+            text-align: center; /* Center align content */
+        }
+    </style>
+</head>
+<body>
+    <div class="dashboard-container">
+        <h1 class = "center">Expense Dashboard JS</h1>
+        <div class="graph-container" id="plotly-graph">
+            <img src="AverageSpendingperDay.png" alt="AverageSpendingperDay"> <!-- Replace with your image -->
+            <img src="SpendingperDay.png" alt="SpendingperDay"> <!-- Replace with your image -->
+            <img src="SpendingperPaymentMethod.png" alt="SpendingperPaymentMethod"> <!-- Replace with your image -->        
+    </div>
+</body>
+</html>
